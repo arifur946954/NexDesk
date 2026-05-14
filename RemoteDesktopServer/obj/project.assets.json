@@ -1,0 +1,475 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Crping.WinInput/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows7.0/Crping.WinInput.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Crping.WinInput.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "DeftSharp.Windows.Input/0.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/DeftSharp.Windows.Input.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/DeftSharp.Windows.Input.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.InputSimulator/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/H.InputSimulator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/H.InputSimulator.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Lemutec.RemoteViewing/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Lemutec.RemoteViewing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Lemutec.RemoteViewing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Lemutec.RemoteViewing.Windows.Forms/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Lemutec.RemoteViewing": "1.2.1"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Microsoft.Win32.SystemEvents/10.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/10.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.8"
+        },
+        "compile": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/System.Private.Windows.GdiPlus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/System.Private.Windows.GdiPlus.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "WindowsInput/6.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/WindowsInput.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/WindowsInput.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "contentFiles": {
+          "contentFiles/any/net6.0-windows7.0/.nuget/mouse-keyboard-hook-logo.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crping.WinInput/1.3.0": {
+      "sha512": "mdcGOx/G/YOcfybVLtoY85/PSv0IwL8HB2EMTRNFzBUuBLPjQV9SL9Q4YohJoTUSTpRpZiDojNMrCVmjXyRkUg==",
+      "type": "package",
+      "path": "crping.wininput/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "crping.wininput.1.3.0.nupkg.sha512",
+        "crping.wininput.nuspec",
+        "lib/net7.0-windows7.0/Crping.WinInput.dll"
+      ]
+    },
+    "DeftSharp.Windows.Input/0.10.0": {
+      "sha512": "I5A9Q5ntDZRqo2VpY1hk9DyPitM8g9vi/tDmV4syTzHLRDlpf04HC9tFeKh3USSC1wmAigHQ1AaM10N7oZ8n9A==",
+      "type": "package",
+      "path": "deftsharp.windows.input/0.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DeftSharp-icon.png",
+        "deftsharp.windows.input.0.10.0.nupkg.sha512",
+        "deftsharp.windows.input.nuspec",
+        "lib/net8.0-windows7.0/DeftSharp.Windows.Input.dll"
+      ]
+    },
+    "H.InputSimulator/1.5.0": {
+      "sha512": "OCp3w2BsRBQ5b/BlOe6Ev4wXh9b3YgdsxtH56nwrrR0JcxjTxS9T7iYYc38Y7VgLJEZKUua7L6iwAy+EL0XXlw==",
+      "type": "package",
+      "path": "h.inputsimulator/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "h.inputsimulator.1.5.0.nupkg.sha512",
+        "h.inputsimulator.nuspec",
+        "lib/net462/H.InputSimulator.dll",
+        "lib/net462/H.InputSimulator.xml",
+        "lib/net8.0/H.InputSimulator.dll",
+        "lib/net8.0/H.InputSimulator.xml",
+        "lib/net9.0/H.InputSimulator.dll",
+        "lib/net9.0/H.InputSimulator.xml",
+        "lib/netstandard2.0/H.InputSimulator.dll",
+        "lib/netstandard2.0/H.InputSimulator.xml",
+        "nuget_icon.png"
+      ]
+    },
+    "Lemutec.RemoteViewing/1.2.1": {
+      "sha512": "+6RYG9Z70xbSK7F5iq92lbVLX4pal42VcaBJadQz4kDBOPOtpThcZozmafaBLYmLCOFqeSbSU4ct0qup/zwvIA==",
+      "type": "package",
+      "path": "lemutec.remoteviewing/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lemutec.remoteviewing.1.2.1.nupkg.sha512",
+        "lemutec.remoteviewing.nuspec",
+        "lib/net10.0/Lemutec.RemoteViewing.dll",
+        "lib/net10.0/Lemutec.RemoteViewing.xml",
+        "lib/net462/Lemutec.RemoteViewing.dll",
+        "lib/net462/Lemutec.RemoteViewing.xml",
+        "lib/net472/Lemutec.RemoteViewing.dll",
+        "lib/net472/Lemutec.RemoteViewing.xml",
+        "lib/net48/Lemutec.RemoteViewing.dll",
+        "lib/net48/Lemutec.RemoteViewing.xml",
+        "lib/net5.0/Lemutec.RemoteViewing.dll",
+        "lib/net5.0/Lemutec.RemoteViewing.xml",
+        "lib/net6.0/Lemutec.RemoteViewing.dll",
+        "lib/net6.0/Lemutec.RemoteViewing.xml",
+        "lib/net7.0/Lemutec.RemoteViewing.dll",
+        "lib/net7.0/Lemutec.RemoteViewing.xml",
+        "lib/net8.0/Lemutec.RemoteViewing.dll",
+        "lib/net8.0/Lemutec.RemoteViewing.xml",
+        "lib/net9.0/Lemutec.RemoteViewing.dll",
+        "lib/net9.0/Lemutec.RemoteViewing.xml",
+        "lib/netstandard2.0/Lemutec.RemoteViewing.dll",
+        "lib/netstandard2.0/Lemutec.RemoteViewing.xml",
+        "lib/netstandard2.1/Lemutec.RemoteViewing.dll",
+        "lib/netstandard2.1/Lemutec.RemoteViewing.xml",
+        "logo.png"
+      ]
+    },
+    "Lemutec.RemoteViewing.Windows.Forms/1.2.1": {
+      "sha512": "1bREe81kFbTpUEN6gmJ/S68fkneaSdtliw//5r9/RCgpMDg0hPuOZcXPW/PtQ51auTb0n8mRrez/h9fzCYjb2A==",
+      "type": "package",
+      "path": "lemutec.remoteviewing.windows.forms/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lemutec.remoteviewing.windows.forms.1.2.1.nupkg.sha512",
+        "lemutec.remoteviewing.windows.forms.nuspec",
+        "lib/net10.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net10.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net462/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net462/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net472/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net472/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net48/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net48/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net5.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net5.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net6.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net6.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net7.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net7.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net8.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net8.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "lib/net9.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.dll",
+        "lib/net9.0-windows7.0/Lemutec.RemoteViewing.Windows.Forms.xml",
+        "logo.png"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/10.0.8": {
+      "sha512": "J9+VT0lkrA7wW38CGxO2sZd+iH9C0qzioMi/2ztpT32WOVr+04uNqFIrxisTRf+mvtXLtdqcio1AoS0vfAVLLQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/10.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net10.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net10.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.10.0.8.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/10.0.8": {
+      "sha512": "LCISd6JAF80vsy9L6wuetZeOMR3FH+SwKovw5Zl0Nov9pB9ZOiCSqvOfMzooypPItQLv0mGfEePjJ1nCCQztNw==",
+      "type": "package",
+      "path": "system.drawing.common/10.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net10.0/System.Drawing.Common.dll",
+        "lib/net10.0/System.Drawing.Common.pdb",
+        "lib/net10.0/System.Drawing.Common.xml",
+        "lib/net10.0/System.Private.Windows.Core.dll",
+        "lib/net10.0/System.Private.Windows.Core.xml",
+        "lib/net10.0/System.Private.Windows.GdiPlus.dll",
+        "lib/net10.0/System.Private.Windows.GdiPlus.xml",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Private.Windows.Core.dll",
+        "lib/net8.0/System.Private.Windows.Core.xml",
+        "lib/net8.0/System.Private.Windows.GdiPlus.dll",
+        "lib/net8.0/System.Private.Windows.GdiPlus.xml",
+        "lib/net9.0/System.Drawing.Common.dll",
+        "lib/net9.0/System.Drawing.Common.pdb",
+        "lib/net9.0/System.Drawing.Common.xml",
+        "lib/net9.0/System.Private.Windows.Core.dll",
+        "lib/net9.0/System.Private.Windows.Core.xml",
+        "lib/net9.0/System.Private.Windows.GdiPlus.dll",
+        "lib/net9.0/System.Private.Windows.GdiPlus.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.10.0.8.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "WindowsInput/6.4.1": {
+      "sha512": "wfg9uu5xDvBcaNqvR1ZTFQqBf4bKzkxdd5WviTZPy4cAywEzLzofuYswZB3nGIEnnlwGLBGSgrNOEZH/w8JI9w==",
+      "type": "package",
+      "path": "windowsinput/6.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "content/.nuget/mouse-keyboard-hook-logo.png",
+        "contentFiles/any/net461/.nuget/mouse-keyboard-hook-logo.png",
+        "contentFiles/any/net6.0-windows7.0/.nuget/mouse-keyboard-hook-logo.png",
+        "contentFiles/any/netcoreapp3.1/.nuget/mouse-keyboard-hook-logo.png",
+        "lib/net461/WindowsInput.dll",
+        "lib/net6.0-windows7.0/WindowsInput.dll",
+        "lib/netcoreapp3.1/WindowsInput.dll",
+        "mouse-keyboard-hook-logo.png",
+        "windowsinput.6.4.1.nupkg.sha512",
+        "windowsinput.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Crping.WinInput >= 1.3.0",
+      "DeftSharp.Windows.Input >= 0.10.0",
+      "H.InputSimulator >= 1.5.0",
+      "Lemutec.RemoteViewing.Windows.Forms >= 1.2.1",
+      "System.Drawing.Common >= 10.0.8",
+      "WindowsInput >= 6.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Project-3\\Desktop\\RemoteDesktopSolution\\RemoteDesktopServer\\RemoteDesktopServer.csproj",
+      "projectName": "RemoteDesktopServer",
+      "projectPath": "E:\\Project-3\\Desktop\\RemoteDesktopSolution\\RemoteDesktopServer\\RemoteDesktopServer.csproj",
+      "packagesPath": "C:\\Users\\arifur.rahman\\.nuget\\packages\\",
+      "outputPath": "E:\\Project-3\\Desktop\\RemoteDesktopSolution\\RemoteDesktopServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\arifur.rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Crping.WinInput": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "DeftSharp.Windows.Input": {
+            "target": "Package",
+            "version": "[0.10.0, )"
+          },
+          "H.InputSimulator": {
+            "target": "Package",
+            "version": "[1.5.0, )"
+          },
+          "Lemutec.RemoteViewing.Windows.Forms": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[10.0.8, )"
+          },
+          "WindowsInput": {
+            "target": "Package",
+            "version": "[6.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

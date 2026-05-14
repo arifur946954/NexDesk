@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "BeJG/4B38oU=",
+  "success": true,
+  "projectFilePath": "E:\\Project-3\\Desktop\\RemoteDesktopSolution\\RemoteDesktopServer\\RemoteDesktopServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\crping.wininput\\1.3.0\\crping.wininput.1.3.0.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\deftsharp.windows.input\\0.10.0\\deftsharp.windows.input.0.10.0.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\h.inputsimulator\\1.5.0\\h.inputsimulator.1.5.0.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\lemutec.remoteviewing\\1.2.1\\lemutec.remoteviewing.1.2.1.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\lemutec.remoteviewing.windows.forms\\1.2.1\\lemutec.remoteviewing.windows.forms.1.2.1.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.8\\microsoft.win32.systemevents.10.0.8.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\system.drawing.common\\10.0.8\\system.drawing.common.10.0.8.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\windowsinput\\6.4.1\\windowsinput.6.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

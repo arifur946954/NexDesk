@@ -1,0 +1,6 @@
+Install-Package WindowsInput
+Install-Package System.Drawing.Common
+Install-Package Lemutec.RemoteViewing.Windows.Forms
+Install-Package H.InputSimulator
+Install-Package Crping.WinInput
+Install-Package DeftSharp.Windows.Input
