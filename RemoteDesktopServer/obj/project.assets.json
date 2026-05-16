@@ -93,6 +93,19 @@
           }
         }
       },
+      "Open.NAT/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Open.Nat.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Open.Nat.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "System.Drawing.Common/10.0.8": {
         "type": "package",
         "dependencies": {
@@ -294,6 +307,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Open.NAT/2.1.0": {
+      "sha512": "cFa5GY3a1LYpgyCkCfi4kY3XyArNNGjx36tQVfY9bQEXQBo8zx9rFKkDrDjOEupy31FPPH/mqLClddLNUl41hQ==",
+      "type": "package",
+      "path": "open.nat/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Open.Nat.XML",
+        "lib/net35/Open.Nat.dll",
+        "lib/net35/System.Threading.dll",
+        "lib/net35/System.Threading.xml",
+        "lib/net45/Open.Nat.XML",
+        "lib/net45/Open.Nat.dll",
+        "open.nat.2.1.0.nupkg.sha512",
+        "open.nat.nuspec"
+      ]
+    },
     "System.Drawing.Common/10.0.8": {
       "sha512": "LCISd6JAF80vsy9L6wuetZeOMR3FH+SwKovw5Zl0Nov9pB9ZOiCSqvOfMzooypPItQLv0mGfEePjJ1nCCQztNw==",
       "type": "package",
@@ -375,6 +405,7 @@
       "DeftSharp.Windows.Input >= 0.10.0",
       "H.InputSimulator >= 1.5.0",
       "Lemutec.RemoteViewing.Windows.Forms >= 1.2.1",
+      "Open.NAT >= 2.1.0",
       "System.Drawing.Common >= 10.0.8",
       "WindowsInput >= 6.4.1"
     ]
@@ -440,6 +471,10 @@
             "target": "Package",
             "version": "[1.2.1, )"
           },
+          "Open.NAT": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[10.0.8, )"
@@ -471,5 +506,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Open.NAT 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Open.NAT",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

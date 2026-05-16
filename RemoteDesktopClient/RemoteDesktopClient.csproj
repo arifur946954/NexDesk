@@ -13,6 +13,7 @@
     <PackageReference Include="DeftSharp.Windows.Input" Version="0.10.0" />
     <PackageReference Include="H.InputSimulator" Version="1.5.0" />
     <PackageReference Include="Lemutec.RemoteViewing.Windows.Forms" Version="1.2.1" />
+    <PackageReference Include="Open.NAT" Version="2.1.0" />
     <PackageReference Include="System.Drawing.Common" Version="10.0.8" />
     <PackageReference Include="WindowsInput" Version="6.4.1" />
   </ItemGroup>

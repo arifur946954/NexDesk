@@ -27,3 +27,5 @@ E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\obj\Debug\net8.0-
 E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\obj\Debug\net8.0-windows\RemoteDesktopClient.pdb
 E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\obj\Debug\net8.0-windows\RemoteDesktopClient.genruntimeconfig.cache
 E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\obj\Debug\net8.0-windows\ref\RemoteDesktopClient.dll
+E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\bin\Debug\net8.0-windows\Open.Nat.dll
+E:\Project-3\Desktop\RemoteDesktopSolution\RemoteDesktopClient\obj\Debug\net8.0-windows\RemoteDesktopClient.sourcelink.json

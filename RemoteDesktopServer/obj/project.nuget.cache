@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BeJG/4B38oU=",
+  "dgSpecHash": "7uz701i/uqQ=",
   "success": true,
   "projectFilePath": "E:\\Project-3\\Desktop\\RemoteDesktopSolution\\RemoteDesktopServer\\RemoteDesktopServer.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,20 @@
     "C:\\Users\\arifur.rahman\\.nuget\\packages\\lemutec.remoteviewing\\1.2.1\\lemutec.remoteviewing.1.2.1.nupkg.sha512",
     "C:\\Users\\arifur.rahman\\.nuget\\packages\\lemutec.remoteviewing.windows.forms\\1.2.1\\lemutec.remoteviewing.windows.forms.1.2.1.nupkg.sha512",
     "C:\\Users\\arifur.rahman\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.8\\microsoft.win32.systemevents.10.0.8.nupkg.sha512",
+    "C:\\Users\\arifur.rahman\\.nuget\\packages\\open.nat\\2.1.0\\open.nat.2.1.0.nupkg.sha512",
     "C:\\Users\\arifur.rahman\\.nuget\\packages\\system.drawing.common\\10.0.8\\system.drawing.common.10.0.8.nupkg.sha512",
     "C:\\Users\\arifur.rahman\\.nuget\\packages\\windowsinput\\6.4.1\\windowsinput.6.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Open.NAT 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Open.NAT",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }
